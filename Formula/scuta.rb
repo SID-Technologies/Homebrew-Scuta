@@ -1,26 +1,26 @@
 class Scuta < Formula
   desc "SID Developer Toolbox - install once, get everything"
   homepage "https://github.com/SID-Technologies/Scuta"
-  version "1.0.0"
+  version "1.1.0"
   license "BSL-1.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/SID-Technologies/Scuta/releases/download/v1.0.0/scuta_v1.0.0_darwin_arm64.tar.gz"
-      sha256 "df5384b9e547c1042db44800e1ae0f28b0c3bef0ef9cb6bc041c343fa787abb0"
+      url "https://github.com/SID-Technologies/Scuta/releases/download/v1.1.0/scuta_v1.1.0_darwin_arm64.tar.gz"
+      sha256 "6217a6fc2eff93355fecd756649f9ab0e1921f4f40c0a86ad9dcbc7ed2dbe530"
     else
-      url "https://github.com/SID-Technologies/Scuta/releases/download/v1.0.0/scuta_v1.0.0_darwin_amd64.tar.gz"
-      sha256 "87393d9dc26b74adce2caf9be0f613aa4e9b59e2edb57b30fc6433c46a97f1eb"
+      url "https://github.com/SID-Technologies/Scuta/releases/download/v1.1.0/scuta_v1.1.0_darwin_amd64.tar.gz"
+      sha256 "396969eed2710f241718943f2f237964ee663566a790e965cbec53c95433486b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/SID-Technologies/Scuta/releases/download/v1.0.0/scuta_v1.0.0_linux_arm64.tar.gz"
-      sha256 "f23a75eb4986022e0e8953ba7328514f02d36d1dd1ca427a9f86476e705ae51f"
+      url "https://github.com/SID-Technologies/Scuta/releases/download/v1.1.0/scuta_v1.1.0_linux_arm64.tar.gz"
+      sha256 "5de3b4e0ba8cbce7337d32d63fd618530a112b92270d8ca8e7edba10db952c87"
     else
-      url "https://github.com/SID-Technologies/Scuta/releases/download/v1.0.0/scuta_v1.0.0_linux_amd64.tar.gz"
-      sha256 "11d39bb46b0329087e3c5035ce7b9b31e8c2937d2e16c8d6f006d8b45bc5c18c"
+      url "https://github.com/SID-Technologies/Scuta/releases/download/v1.1.0/scuta_v1.1.0_linux_amd64.tar.gz"
+      sha256 "d6568f489a3a48c2f92b3939355f5e277d40d338446d1fefe50d01dfae4d6b0e"
     end
   end
 
